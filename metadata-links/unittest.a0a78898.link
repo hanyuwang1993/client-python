@@ -1,0 +1,79 @@
+{
+ "signatures": [
+  {
+   "keyid": "a0a78898b68815de5a4165b8c3651d9411ea08f0d13eab1c217f7bf7ceead4be",
+   "sig": "4447528c7ded27f9a0dbbfcaf97c6cdde4eaae4e1946dc138673c8f774528157a94ca0c73e60f608b6912999dca0d5ffd2d94d8dbea47fa9fd3f44dc9328ae387cbce17450fa2908d55475e3c5561348d0d26e36d7f7cfbbc5ecc8a73f1e75bdebc3d2c19bdee2a5f21c3a018805b47a9ba59db985582d1039acf51a685431bb587532c8e456b837c8a6c2114925796b38421912a9500bb7375365a7ef145112f8886e13045f291690c1f23bf7ca9d0f5011616a92764860d3546370db73be3029cc9d5219bec6310467a0ae210c6d847db8e447b7e69edc7c3599cae96d3ff78fde1a812b9624b7b6e68170c514f2c856b1145327fd89622a8f5ca7d08c3b38fbbc60860ad0f9f4ffa1748d3ea67d5fb77e8854b933fb33f46f1f1fa0e585fc0304a8f2c6c57024436c62f628c96819d8237e50bef9d09b140c2dd6fcfc4a259d0c002ca6ec400e3854f9fddd1a7e47c4633b77b86d5ec7054c2e851f7e28fdfd194e4615b1dd9cb9c7801fc57d79d691673ca5e3aaa9db9f34b3e077f7deb7"
+  }
+ ],
+ "signed": {
+  "_type": "link",
+  "byproducts": {
+   "return-value": 0,
+   "stderr": "",
+   "stdout": "coverage run -m pytest\n============================= test session starts ==============================\nplatform darwin -- Python 3.9.10, pytest-6.2.5, py-1.11.0, pluggy-1.0.0\nrootdir: /Users/wanghanyu/Documents/repos/in-toto-python\ncollected 2 items\n\ntests/test_main.py ..                                                    [100%]\n\n============================== 2 passed in 0.40s ===============================\n"
+  },
+  "command": [
+   "make",
+   "test"
+  ],
+  "environment": {},
+  "materials": {
+   "Dockerfile": {
+    "sha256": "35e131e895ced49abf792508188d5d4e87fe2504195a44d73231e7c4033a0244"
+   },
+   "README.md": {
+    "sha256": "5ed11ed0b5faf8ec68e6d11c432a3fea583652a6d3e3b9db3926e01393b0349d"
+   },
+   "cicd": {
+    "sha256": "b546b127cc2e98eaa0526da7633c592e8dd375e4d5ad5083f7d33142d9823d96"
+   },
+   "cicd.pub": {
+    "sha256": "9b4a4c1d77fdc897a4bb28fc6554c9f9b91f753554262adcef499d597597a11b"
+   },
+   "makefile": {
+    "sha256": "e2f4382364d23ba7366ff68aa1b9789473bdc148ce18a3f71dd0baeb462cc62d"
+   },
+   "metadata-links/git-metadata.a0a78898.link": {
+    "sha256": "fd7ed5374e50bcf3f60ce24ca8ce264b5e918219795660e7479fba07620496d2"
+   },
+   "poetry.lock": {
+    "sha256": "3110150aef87f1df7c4cacf00b748c9a32d75a5f46efa7628a5276dc02d6409f"
+   },
+   "pyproject.toml": {
+    "sha256": "ba66ae23dd94ff1ebae978aae727ecec8a811545463adf09464457267cec16f8"
+   },
+   "src/__init__.py": {
+    "sha256": "924b13918de46cef53ec96bc569a394104a38f9281c35cacda17b51d3bae56f6"
+   },
+   "src/__pycache__/__init__.cpython-39.pyc": {
+    "sha256": "c8d2e211a6947b0a46c4055ee1161588c6d8391131c281f8eee6b4e3901e8b93"
+   },
+   "src/__pycache__/main.cpython-39.pyc": {
+    "sha256": "8f4774e3a51bd28ab4e694d2698d5361cd4a7bf59c6a3bb5d0e7ddfee9ec2095"
+   },
+   "src/main.py": {
+    "sha256": "605cb7fcc43a94ee60eb122ddcc38e24d3e3ae3cd539a58bb200d7f5fa1caf84"
+   },
+   "test_key": {
+    "sha256": "b9a6b6977ab23bac303a2a6bd3d840600cc4ea5b16b4d30b39c22caa0d1291d6"
+   },
+   "test_key.pub": {
+    "sha256": "01278f2b38886de1921549128fd4eb2b5780628f20a9d7b3afda1390e22925ae"
+   },
+   "tests/__init__.py": {
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+   },
+   "tests/__pycache__/__init__.cpython-39.pyc": {
+    "sha256": "0aa70cc8d102965c004c1a0be267dcd1277f20b9bb814d9fab1a33976c853f0c"
+   },
+   "tests/__pycache__/test_main.cpython-39-pytest-6.2.5.pyc": {
+    "sha256": "8055c6bdfaac8af648e4da4fb45a5c90e044a49651013ee4e5493e731c04551e"
+   },
+   "tests/test_main.py": {
+    "sha256": "001a20aaa1ca064088dfd8e94c6838d2cf2905b5099856c1afd0d0a9e17521ca"
+   }
+  },
+  "name": "unittest",
+  "products": {}
+ }
+}
