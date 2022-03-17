@@ -66,3 +66,4 @@ target/
 # Files used for regenerating the client
 swagger-codegen-cli.jar
 grafeas.swagger.json
+project.swagger.json
