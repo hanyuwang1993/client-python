@@ -16,6 +16,7 @@
 from __future__ import absolute_import
 
 # import apis into sdk package
+from grafeas.api.projects_api import ProjectsApi
 from grafeas.api.grafeas_v1_beta1_api import GrafeasV1Beta1Api
 
 # import ApiClient
